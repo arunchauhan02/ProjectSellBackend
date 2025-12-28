@@ -5,7 +5,7 @@ copy Backend/requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY Backend/app app/app
+COPY Backend/App app/app
 
 ENV PYTHONPATH=/app
 

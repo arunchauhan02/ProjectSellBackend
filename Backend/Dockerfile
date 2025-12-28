@@ -1,7 +1,7 @@
 from python:3.11-slim
 WORKDIR /app
 
-copy requirements.txt .
+copy Backend/requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 

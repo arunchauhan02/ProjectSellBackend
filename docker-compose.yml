@@ -1,0 +1,8 @@
+version: "3"
+Services:
+  backend:
+    image:"backend:latest"
+    container_name:backend-container
+    ports:
+      - "8000:8000"
+    reestart: always
